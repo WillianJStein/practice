@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  background-color: rgb(32, 32, 32);
+}
+
+header > h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 20px firebrick;
+}
+
+main > div {
+  text-align: center;
+  border-radius: 20px;
+  padding: 15;
+  margin: 10px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.form-container form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+
+.form-result form {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+    min-width: 500px;
+  }
+
+.form-container input {
+  width: 50px;
+  height: 10px;
+  border: thin solid rgba(167, 11, 11, 0.829);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  text-align: auto;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.form-line img {
+    width: 60px;
+}
+
+.form-container button {
+    background-color: limegreen;
+    font-size: 16px;
+    margin: 20px 2px;
+    color: white;
+    font-size: 20px;
+    padding: 15px 32px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
